@@ -71,7 +71,7 @@ fun PantallaInicio(modifier: Modifier = Modifier){
 
         Button(onClick = {
             //Toast.makeText(context, "This is a test", Toast.LENGTH_SHORT).show()
-            var intent = Intent(context, NavigationActivity::class.java)
+            var intent = Intent(context, Contador2::class.java)
             context.startActivity(intent)
 
         }, modifier = modifier.width(200.dp).height(50.dp)
